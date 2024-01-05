@@ -12,3 +12,7 @@ jobs:
       - uses: php-actions/composer@v6
       - run: echo "Composer dependencies have been installed"
       - run: vendor/bin/phpunit
+      with:
+        files: |
+          tests/**/*.php
+          
