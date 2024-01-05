@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 class AccountTest extends TestCase
 {
-    public function testGetAccounts()
+    public function testAccounts(): void 
     {
         $this->assertEquals(1, 1);
 		
